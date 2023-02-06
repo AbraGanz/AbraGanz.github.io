@@ -29,7 +29,7 @@ github_username:  AbraGanz
 
 
 # Build settings
-remote_theme: poole/hyde
+theme: minimal
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
