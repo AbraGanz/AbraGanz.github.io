@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - CV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #ffffff;
+            background: #000000;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 30px;
+        }
+
+        header {
+            display: flex;
+            gap: 40px;
+            align-items: center;
+            margin-bottom: 60px;
+            padding-bottom: 40px;
+            border-bottom: 1px solid #333333;
+        }
+
+        .profile-photo {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+        .header-text h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+
+        .header-text p {
+            font-size: 1.1rem;
+            color: #cccccc;
+            margin-bottom: 15px;
+        }
+
+        .contact-links {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .contact-links a {
+            color: #66b3ff;
+            text-decoration: none;
+            font-size: 0.95rem;
+        }
+
+        .contact-links a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 25px;
+            color: #ffffff;
+            border-bottom: 2px solid #ffffff;
+            padding-bottom: 8px;
+        }
+
+        .project-item,
+        .publication-item,
+        .speaking-item {
+            margin-bottom: 25px;
+        }
+
+        .item-title {
+            font-weight: 600;
+            color: #ffffff;
+            margin-bottom: 5px;
+        }
+
+        .item-meta {
+            color: #aaaaaa;
+            font-size: 0.95rem;
+            margin-bottom: 8px;
+        }
+
+        .item-description {
+            color: #cccccc;
+            line-height: 1.7;
+        }
+
+        .publication-item {
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .publication-item::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #aaaaaa;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 40px 20px;
+            }
+
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .header-text h1 {
+                font-size: 2rem;
+            }
+
+            .contact-links {
+                justify-content: center;
+            }
+
+            .profile-photo {
+                width: 150px;
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="cv photo.jpg" alt="Your Name" class="profile-photo">
+            <div class="header-text">
+                <h1>Abra Ganz</h1>
+                <p>AI Governance Researcher | Policy Analyst</p>
+                <p>Oxford, UK</p>
+                <div class="contact-links">
+                    <a href="mailto:ganz.abra@gmail.com">Email</a>
+                    <a href="https://linkedin.com/in/abraganz">LinkedIn</a>
+                    <a href="https://scholar.google.com/citations?user=bPlsMmcAAAAJ&hl=en">Google Scholar</a>
+                </div>
+            </div>
+        </header>
+
+        <section id="about">
+            <h2>About</h2>
+            <p class="item-description">
+                I work mostly on AI Oversight regimes, with a particular focus on incident reporting.
+                In this role I advise technical bodies on how best to implement legislation and have also provided technical expertise to lawmakers.
+                Previously I have worked on the economic impacts of TAI and global benefit sharing. 
+            </p>
+        </section>
+
+        <section id="current-projects">
+            <h2>Current Projects</h2>
+            
+            <div class="project-item">
+                <div class="item-title">Whistleblowing in the AI Industry</div>
+                <div class="item-meta">CARMA | 2026 - Present</div>
+                <p class="item-description">
+                    Leading a research composium of fifteen organisations to determine what concerning behaviour, exhibited in AI labs or by AI systems, can legally be reported, which the most effective channels for reporting this information are, and what the most critical gaps in current legislation are.
+                </p>
+            </div>
+
+            <div class="project-item">
+                <div class="item-title">Reporting AI Risks in the NatSec Sphere</div>
+                <div class="item-meta">CARMA | 2025 - Present</div>
+                <p class="item-description">
+                    Investigating whether the current mechanisms for reporting AI risks internally to the US NatSec apparatus are well-functioning.
+                </p>
+            </div>
+        </section>
+
+        <section id="publications">
+            <h2>Publications</h2>
+
+            <div class="publication-item">
+                <div class="item-title"><a href="https://aigi.ox.ac.uk/publications/ai-benefit-sharing-framework-balancing-access-and-safety/">AI Benefit-Sharing Framework: Balancing Access and Safety</a></div>
+                <div class="item-meta">S. Nur Adan, J. Wiaterek <em>et al.</em> <em>Oxford AI Governance Initiative</em>, 2025.</div>
+            </div>
+            
+            <div class="publication-item">
+                <div class="item-title">[working title] An analysis of SB-53 Whistleblower Protections</div>
+                <div class="item-meta">A. Ganz, K. Koch. <em>Institute of Law and AI (upcoming)</em>, 2025.</div>
+            </div>
+
+            <div class="publication-item">
+                <div class="item-title"><a href="https://www.transformernews.ai/p/sb-53-protects-whistleblowers-in">SB-53 protects whistleblowers in AI — but asks a lot in return</a></div>
+                <div class="item-meta">A. Ganz, K. Koch. <em>Transformer</em>, 2025.</div>
+            </div>
+
+            <div class="publication-item">
+                <div class="item-title">International Prohibitions on AI Systems</div>
+                <div class="item-meta">A. Ganz, C. Abungu, M. Maas. <em>FLI Multilateral Governance Conference (available upon request)</em>, 2025.</div>
+            </div>
+
+            <div class="publication-item">
+                <div class="item-title"><a href="https://www.aisafetybook.com/">Introduction to AI Safety, Ethics, and Society</a></div>
+                <div class="item-meta">D. Hendrycks <em>et al.</em> <em>Taylor and Francis</em>, 2024.</div>
+            </div>
+
+            <div class="publication-item">
+                <div class="item-title"><a href="https://link.springer.com/article/10.1007/s11023-024-09683-z">Submarine Cables and the Risks to Digital Sovereignty</a></div>
+                <div class="item-meta">A. Ganz, M. Camellini, C. Novelli, E. Hine, H. Roberts, L. Floridi. <em>Minds and Machines</em>, 2024.</div>
+            </div>
+
+            <div class="publication-item">
+                <div class="item-title"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4903925">My Imaginary Friend is a Gamer: Implications of Introducing LMs to Multiplayer Games</a></div>
+                <div class="item-meta">A. Ganz, J. Laitila, L. Floridi. <em>under review</em>, 2024.</div>
+            </div>
+        </section>
+
+        <section id="speaking">
+            <h2>Speaking & Conferences</h2>
+            
+            <div class="speaking-item">
+                <div class="item-title">Seoul AI Safety and Security Forum</div>
+                <div class="item-meta">Seoul, South Korea | Nov. 2025</div>
+                <p class="item-description">
+                    Presented at a private gathering of Korean, Singaporean, and Japanese AISIs.
+                </p>
+            </div>
+
+            <div class="speaking-item">
+                <div class="item-title"><a href="https://www.agisocialcontract.org/summit">AGI Social Contract Summit</a></div>
+                <div class="item-meta">Stockholm, Sweden | Aug. 2025</div>
+                <p class="item-description">
+                    An expert conference to design policy interventions for a post-AGI society.
+                </p>
+            </div>
+
+            <div class="speaking-item">
+                <div class="item-title"><a href="https://24oreventi.ilsole24ore.com/economia-del-mare-2025/">Economia del Mare Summit</a></div>
+                <div class="item-meta">Genoa, Italy | July 2025</div>
+                <p class="item-description">
+                    Spoke on a panel about the dangers to and importance of submarine cables.
+                </p>
+            </div>
+
+            <div class="speaking-item">
+                <div class="item-title">International Agreements on Global AI Challenges</div>
+                <div class="item-meta">Oxford, UK | May 2025</div>
+                <p class="item-description">
+                    Collaborative design of an international governance regime for AI.
+                </p>
+            </div>
+
+            <div class="speaking-item">
+                <div class="item-title"><a href="https://www.convergenceanalysis.org/threshold-2030/">Threshold 2030</a></div>
+                <div class="item-meta">Boston, USA | Oct. 2024</div>
+                <p class="item-description">
+                    A conference to rapidly evaluate the economic impacts of frontier AI technologies by 2030.
+                </p>
+            </div>
+        </section>
+
+        <section id="collaborations">
+            <h2>Collaborations</h2>
+            
+            <p class="item-description">
+                I regularly supervise fellows in AI governance and policy research. If you are interested in working with me, please get in touch. While I don't currently have direct funding available, we may be able to identify funding opportunities together.
+            </p>
+        </section>
+    </div>
+</body>
+</html>
