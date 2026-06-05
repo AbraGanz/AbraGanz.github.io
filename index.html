@@ -14,20 +14,20 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
             line-height: 1.6;
-            color: #ffffff;
-            background: #000000;
+            color: #1c1a17;
+            background: #faf8f5;
         }
 
-         /* Global link styling — applies to every <a> unless overridden */
+        /* Global link styling — applies to every <a> unless overridden */
         a {
-            color: #b8a4e8;
+            color: #6a4fa6;
             text-decoration: none;
         }
- 
+
         a:visited {
-            color: #b8a4e8;
+            color: #6a4fa6;
         }
- 
+
         a:hover {
             text-decoration: underline;
         }
@@ -44,7 +44,7 @@
             align-items: center;
             margin-bottom: 60px;
             padding-bottom: 40px;
-            border-bottom: 1px solid #333333;
+            border-bottom: 1px solid #e2ddd3;
         }
 
         .profile-photo {
@@ -59,12 +59,12 @@
             font-size: 2.5rem;
             font-weight: 600;
             margin-bottom: 10px;
-            color: #ffffff;
+            color: #1c1a17;
         }
 
         .header-text p {
             font-size: 1.1rem;
-            color: #cccccc;
+            color: #6b6862;
             margin-bottom: 15px;
         }
 
@@ -75,13 +75,7 @@
         }
 
         .contact-links a {
-            color: #b8a4e8;
-            text-decoration: none;
             font-size: 0.95rem;
-        }
-
-        .contact-links a:hover {
-            text-decoration: underline;
         }
 
         section {
@@ -92,8 +86,8 @@
             font-size: 1.5rem;
             font-weight: 600;
             margin-bottom: 25px;
-            color: #ffffff;
-            border-bottom: 2px solid #ffffff;
+            color: #1c1a17;
+            border-bottom: 2px solid #1c1a17;
             padding-bottom: 8px;
         }
 
@@ -105,18 +99,18 @@
 
         .item-title {
             font-weight: 600;
-            color: #ffffff;
+            color: #1c1a17;
             margin-bottom: 5px;
         }
 
         .item-meta {
-            color: #aaaaaa;
+            color: #6b6862;
             font-size: 0.95rem;
             margin-bottom: 8px;
         }
 
         .item-description {
-            color: #cccccc;
+            color: #3a3833;
             line-height: 1.7;
         }
 
@@ -129,7 +123,7 @@
             content: "";
             position: absolute;
             left: 0;
-            color: #aaaaaa;
+            color: #6b6862;
         }
 
         @media (max-width: 768px) {
@@ -160,7 +154,7 @@
 <body>
     <div class="container">
         <header>
-            <img src="headshot_wisteria.jpg" alt="Abra Ganz" class="profile-photo">
+            <img src="wisteria_headshot.jpg" alt="Abra Ganz" class="profile-photo">
             <div class="header-text">
                 <h1>Abra Ganz</h1>
                 <p>AI Governance Researcher | Policy Analyst</p>
@@ -179,80 +173,70 @@
                 I work mostly on AI Oversight regimes, with a particular focus on incident reporting.
                 In this role I advise technical bodies on how best to implement legislation and have also provided technical expertise to lawmakers.
             </p>
-            <p class="item-description"> I have a Master's in Logic from the University of Amsterdam, have previously worked on technical AI Safety research at MIT and ETH, and was also a research fellow at Yale's Digital Ethics Center for a year. 
-                Currently I work for a non-profit think tank called <a href="https://carma.org/">CARMA</a> and am associated with the <a href="http://aigi.ox.ac.uk">Oxford Martin AI Governance Initative</a>. 
+            <p class="item-description"> I have a Master's in Logic from the University of Amsterdam, have previously worked on technical AI Safety research at MIT and ETH, and was also a research fellow at Yale's Digital Ethics Center for a year.
+                Currently I work for a non-profit think tank called <a href="https://carma.org/">CARMA</a> and am associated with the <a href="http://aigi.ox.ac.uk">Oxford Martin AI Governance Initative</a>.
             </p>
         </section>
 
         <section id="current-projects">
             <h2>Selected Projects</h2>
-            
             <div class="project-item">
                 <div class="item-title">Whistleblowing in the AI Industry: A Comparative Study</div>
                 <div class="item-meta">2025 - Present</div>
                 <p class="item-description">
-                    Leading a research consortium of six organisations to determine what concerning behaviour, 
-                    exhibited in AI labs or by AI systems, can legally be reported, which the most effective channels 
+                    Leading a research consortium of six organisations to determine what concerning behaviour,
+                    exhibited in AI labs or by AI systems, can legally be reported, which the most effective channels
                     for reporting this information are, and what the most critical gaps in current legislation are.
                     <!-- Funded by a grant. -->
                 </p>
             </div>
-
             <div class="project-item">
                 <div class="item-title">Reporting AI Risks in the NatSec Sphere</div>
                 <div class="item-meta">2025 - Present</div>
                 <p class="item-description">
-                    Investigating whether the current mechanisms for reporting AI risks internally to the 
+                    Investigating whether the current mechanisms for reporting AI risks internally to the
                     US NatSec apparatus are well-functioning.
                     <!-- Funded by a grant from the AI Safety Tactical Opportunities Fund. -->
                 </p>
             </div>
-
             <div class="project-item">
                 <div class="item-title">EU AI Office Whistleblowing Channel</div>
                 <!-- <div class="item-meta">CARMA | 2025 </div> -->
                 <div class="item-meta">2025</div>
                 <p class="item-description">
-                    Assisted the EU AI Office with the establishment of their whistleblowing channel, 
+                    Assisted the EU AI Office with the establishment of their whistleblowing channel,
                     which can be found <a href="https://ai-act-whistleblower.integrityline.app">here</a>.
-                    Advised on confidentiality policy, internal handling, FAQ, etc. 
+                    Advised on confidentiality policy, internal handling, FAQ, etc.
                 </p>
             </div>
         </section>
 
         <section id="publications">
             <h2>Publications</h2>
-
             <div class="publication-item">
                 <div class="item-title"><a href="https://law-ai.org/whistleblower-protections-in-sb-53/">Whistleblower Protections in SB 53: Strengths, Limitations, and Open Questions</a></div>
                 <div class="item-meta">A. Ganz, K. Koch. <em>Institute of Law and AI</em>, 2026.</div>
             </div>
-            
             <div class="publication-item">
                 <div class="item-title"><a href="https://aigi.ox.ac.uk/publications/ai-benefit-sharing-framework-balancing-access-and-safety/">AI Benefit-Sharing Framework: Balancing Access and Safety</a></div>
                 <div class="item-meta">S. Nur Adan, J. Wiaterek <em>et al.</em> <em>Oxford AI Governance Initiative</em>, 2025.</div>
             </div>
-
             <div class="publication-item">
                 <div class="item-title"><a href="https://www.transformernews.ai/p/sb-53-protects-whistleblowers-in">SB-53 protects whistleblowers in AI — but asks a lot in return</a></div>
                 <div class="item-meta">A. Ganz, K. Koch. <em>Transformer</em>, 2025.</div>
             </div>
-
             <div class="publication-item">
                 <div class="item-title">International Prohibitions on AI Systems</div>
                 <div class="item-meta">A. Ganz, C. Abungu, M. Maas. <em>FLI Multilateral Governance Conference (available upon request)</em>, 2025.</div>
             </div>
-
             <div class="publication-item">
                 <div class="item-title"><a href="https://www.aisafetybook.com/">Introduction to AI Safety, Ethics, and Society</a></div>
                 <div class="item-meta">D. Hendrycks <em>et al.</em> <em>Taylor and Francis</em>, 2024.</div>
             </div>
-
             <div class="publication-item">
                 <div class="item-title"><a href="https://link.springer.com/article/10.1007/s11023-024-09683-z">Submarine Cables and the Risks to Digital Sovereignty</a></div>
                 <div class="item-meta">A. Ganz, M. Camellini, C. Novelli, E. Hine, H. Roberts, L. Floridi. <em>Minds and Machines</em>, 2024.</div>
             </div>
-
             <!-- <div class="publication-item">
                 <div class="item-title"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4903925">My Imaginary Friend is a Gamer: Implications of Introducing LMs to Multiplayer Games</a></div>
                 <div class="item-meta">A. Ganz, J. Laitila, L. Floridi. <em>under review</em>, 2024.</div>
@@ -261,15 +245,13 @@
 
         <section id="speaking">
             <h2>Conferences & Speaking Engagements</h2>
-
             <div class="speaking-item">
-            <div class="item-title"><a href="https://cyber.harvard.edu/events/who-watches-warfighters-oversight-ai-dod">Who Watches the Warfighters? Oversight of AI in the DOD</a></div>
-            <div class="item-meta">Harvard, Cambridge, United States | April 2026</div>
+                <div class="item-title"><a href="https://cyber.harvard.edu/events/who-watches-warfighters-oversight-ai-dod">Who Watches the Warfighters? Oversight of AI in the DOD</a></div>
+                <div class="item-meta">Harvard, Cambridge, United States| April 2026</div>
                 <!-- <p class="item-description">
                     Presented at a private gathering of Korean, Singaporean, and Japanese AISIs.
                 </p> -->
             </div>
-
             <div class="speaking-item">
                 <div class="item-title"><a href="https://www.far.ai/events/event-list/london-alignment-workshop-2026">FAR Alignment Workshop</a></div>
                 <div class="item-meta">London, UK | Mar. 2026</div>
@@ -277,7 +259,6 @@
                     Presented on oversight of AI in the US DOD.
                 </p>
             </div>
-
             <div class="speaking-item">
                 <div class="item-title"><a href="https://www.iaseai.org/iaseai26">IASEAI</a></div>
                 <div class="item-meta">Paris, France | Feb. 2026</div>
@@ -285,7 +266,6 @@
                     Presented on the application of whistleblowing law to the AI industry.
                 </p>
             </div>
-            
             <div class="speaking-item">
                 <div class="item-title">Seoul AI Safety and Security Forum</div>
                 <div class="item-meta">Seoul, South Korea | Nov. 2025</div>
@@ -293,7 +273,6 @@
                     Presented at a private gathering of Korean, Singaporean, and Japanese AISIs.
                 </p>
             </div>
-
             <!-- <div class="speaking-item">
                 <div class="item-title"><a href="https://www.agisocialcontract.org/summit">AGI Social Contract Summit</a></div>
                 <div class="item-meta">Stockholm, Sweden | Aug. 2025</div>
@@ -301,7 +280,6 @@
                     An expert conference to design policy interventions for a post-AGI society.
                 </p>
             </div> -->
-
             <div class="speaking-item">
                 <div class="item-title"><a href="https://24oreventi.ilsole24ore.com/economia-del-mare-2025/">The Importance of Submarine Cables</a></div>
                 <div class="item-meta">Economia del Mare Summit, Genoa, Italy | July 2025</div>
@@ -309,7 +287,6 @@
                     Spoke on a panel about the dangers to and importance of submarine cables.
                 </p> -->
             </div>
-
             <div class="speaking-item">
                 <div class="item-title">International Agreements on Global AI Challenges</div>
                 <div class="item-meta">Oxford, UK | May 2025</div>
@@ -317,7 +294,6 @@
                     Collaborative design of an international governance regime for AI.
                 </p>
             </div>
-
             <div class="speaking-item">
                 <div class="item-title"><a href="https://www.convergenceanalysis.org/threshold-2030/">Threshold 2030</a></div>
                 <div class="item-meta">Boston, USA | Oct. 2024</div>
@@ -329,10 +305,9 @@
 
         <section id="collaborations">
             <h2>Collaborations</h2>
-            
             <p class="item-description">
-                I regularly supervise research fellows in AI governance and policy research.
-                If you are interested in working with me, please get in touch. 
+                I regularly supervise reserach fellows in AI governance and policy research.
+                If you are interested in working with me, please get in touch.
                 While I don't currently have direct funding available, we may be able to identify funding opportunities together.
             </p>
         </section>
